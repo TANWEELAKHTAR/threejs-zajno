@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: zanjo;
+    src: url(/public/sh.woff2);
+}
+
+img {
+    opacity: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
